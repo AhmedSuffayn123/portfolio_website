@@ -7,5 +7,9 @@ export default defineConfig({
     react(),
     tailwindcss(), 
   ],
-   base: '/portfolio_website/', 
+   base: "/portfolio_website/", 
+   server:{
+    open:true,
+    port:9001,
+   },
 })
