@@ -1,39 +1,39 @@
 import { Link } from "react-router-dom";
 import { FaListUl } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { BsChatText } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import "./Header.css";
 import { useState } from "react";
 const Header = () => {
   const [isOpen,setIsOpen]  =  useState(false)
-  const mystyle = {
-    fontSize: "24px",
-  };
+  // const mystyle = {
+  //   fontSize: "24px",
+  // };
   return (
-    <div className="min-h-full bg-gray-800 px-4 py-4 gap-20 flex justify-center items-center main-header">
-      <div class="name-section">
-        <h3 className="text-2xl fw-bold font-[400]  p-0 m-0">Suffyan Abbasi</h3>
+    <div className="min-h-full header-bg   py-4 gap-20 flex justify-between items-center main-header">
+      <div class="name-section ms-40">
+        <h3 className="text-xl sm:text-3xl fw-bold font-[600]  p-0 m-0 uppercase"><span className="First-name">Suffyan</span><span className="last-name">Abbasi</span> </h3>
       </div>
       <div className="info-section hidden lg:flex">
         <ul className="main-list flex items-center justify-center gap-4">
           <li>
-            <Link>Home</Link>
+            <Link to="">About</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link>Education</Link>
           </li>
           <li>
-            <Link>Contact Me</Link>
-          </li>
-          <li>
-            <Link>Assing A Project</Link>
-          </li>
-          <li>
-            <Link>About Me</Link>
+            <Link>Skills</Link>
           </li>
         </ul>
       </div>
-      <div className="burger flex lg:hidden" onClick={()=>setIsOpen(prevState => !prevState)}>
-        <FaListUl className="x-icon" style={mystyle} />
+      <div className="burger flex gap-2 sm:gap-6 lg:hidden" onClick={()=>setIsOpen(prevState => !prevState)}>
+        <FaListUl className="x-icon icon-style"  />
+        <IoLogoLinkedin  className="icon-style" />
+        <FaGithub  className="icon-style" />
+          <BsChatText className="icon-style" />
       </div>
       <div className={`mobile-menu lg:hidden ${isOpen ? "flex" : "hidden"} flex-col bg-gray-800 text-white p-4`}>
        <div class="cross-icon" onClick={()=>setIsOpen(prevState => !prevState)}>
@@ -54,6 +54,48 @@ const Header = () => {
           </li>
           <li>
             <Link>About Me</Link>
+          </li>
+        </ul>
+      </div>
+      <div class="social hidden lg:flex xl:hidden">
+        <ul className="flex gap-6">
+          <li>
+            <Link className="flex items-center lg:gap-2 xl:gap-3">
+            <IoLogoLinkedin />
+            </Link>
+          </li>
+          <li>
+            <Link className="flex items-center lg:gap-2 xl:gap-3">
+              <FaGithub />
+            
+            </Link>
+          </li>
+          <li>
+            <Link className="flex items-center lg:gap-2 xl:gap-3">
+            <BsChatText />
+           </Link>
+          </li>
+        </ul>
+      </div>
+        <div class="social hidden xl:flex">
+        <ul className="flex gap-6">
+          <li>
+            <Link className="flex items-center lg:gap-2 xl:gap-3">
+            <IoLogoLinkedin />
+            Linked In
+           </Link>
+          </li>
+          <li>
+            <Link className="flex items-center lg:gap-2 xl:gap-3">
+              <FaGithub />
+              Github
+            </Link>
+          </li>
+          <li>
+            <Link className="flex items-center lg:gap-2 xl:gap-3">
+            <BsChatText />
+            Contact Me
+            </Link>
           </li>
         </ul>
       </div>
