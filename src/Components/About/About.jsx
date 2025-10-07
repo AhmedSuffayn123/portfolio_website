@@ -8,7 +8,7 @@ const About = () => {
           <h2 className="full-name text-4xl text-left mb-[20px]">
             Muhammad Ahmed Suffyan Abbasi
           </h2>
-          <p className=" about-me text-wrap break-all">
+          <p className=" about-me text-wrap ">
             I’m Ahmed Suffyan Abbasi, a passionate Web Developer with over two
             years of hands-on experience in building modern and scalable web
             applications. My expertise spans both frontend and backend
@@ -95,7 +95,7 @@ const About = () => {
           </p>
         </div>
         <div class="w-full lg:w-1/2 ps-4 flex items-center justify-center lg:justify-start">
-          <img src={ProfileTwo} className="w-100 h-100 rounded-full image" alt="" />
+          <img src={ProfileTwo} className="h-70 w-70 sm:w-100 sm:h-100 rounded-full image" alt="" />
         </div>
       </div>
     </>
