@@ -10,7 +10,7 @@ const Header = () => {
   const [isOpen,setIsOpen]  =  useState(false)
   return (
     <div className="min-h-full header-bg    gap-20 flex justify-between items-center">
-      <div class="name-section">
+      <div className="name-section">
         <h3 className="text-xl sm:text-3xl fw-bold font-[600]  p-0 m-0 uppercase"><span className="First-name">Suffyan</span><span className="last-name">Abbasi</span> </h3>
       </div>
       <div className="info-section hidden lg:flex">
@@ -36,7 +36,7 @@ const Header = () => {
           <BsChatText className="icon-style" />
       </div>
       <div className={`mobile-menu lg:hidden ${isOpen ? "flex" : "hidden"} flex-col bg-gray-800 text-white p-4`}>
-       <div class="cross-icon" onClick={()=>setIsOpen(prevState => !prevState)}>
+       <div className="cross-icon" onClick={()=>setIsOpen(prevState => !prevState)}>
          <RxCross1 className="x-icon" />
        </div>
         <ul className="flex flex-col justify-center items-center gap-2">
@@ -57,7 +57,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div class="social hidden lg:flex xl:hidden">
+      <div className="social hidden lg:flex xl:hidden">
         <ul className="flex gap-6">
           <li>
             <Link className="flex items-center lg:gap-2 xl:gap-3">
@@ -77,7 +77,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-        <div class="social hidden xl:flex">
+        <div className="social hidden xl:flex">
         <ul className="flex gap-6">
           <li>
             <Link className="flex items-center lg:gap-2 xl:gap-3">

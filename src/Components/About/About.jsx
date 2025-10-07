@@ -3,8 +3,8 @@ import ProfileTwo from "../../assets/profileTwo.jpg";
 const About = () => {
   return (
     <>
-      <div class="about-section flex flex-col lg:flex-row  justify-content-between  w-full h-auto py-20">
-        <div class="w-full lg:w-1/2 flex flex-col justify-center  m-0 p-0 mb-2 lg:mb-0">
+      <div className="about-section flex flex-col lg:flex-row  justify-content-between  w-full h-auto py-20">
+        <div className="w-full lg:w-1/2 flex flex-col justify-center  m-0 p-0 mb-2 lg:mb-0">
           <h2 className="full-name text-4xl text-left mb-[20px]">
             Muhammad Ahmed Suffyan Abbasi
           </h2>
@@ -14,76 +14,76 @@ const About = () => {
             applications. My expertise spans both frontend and backend
             development, and I’m proficient in
             <span
-              class="html"
+              className="html"
               title="Crafting clean, semantic, and accessible web structures for modern user interfaces."
             >
               HTML
             </span>{" "}
             ,
             <span
-              class="html"
+              className="html"
               title="Designing visually appealing, responsive, and fluid layouts with precision styling."
             >
               CSS
             </span>{" "}
             ,
             <span
-              class="html"
+              className="html"
               title="Bringing interactivity and dynamic functionality to web applications with efficient, modular code."
             >
               JavaScript
             </span>{" "}
             ,
             <span
-              class="html"
+              className="html"
               title="Building modern, component-driven user interfaces for the web."
             >
               React
             </span>{" "}
             <span
-              class="html"
+              className="html"
               title="Developing structured, maintainable backend systems with TypeScript and modular"
             >
               Next.js
             </span>
             ,
             <span
-              class="html"
+              className="html"
               title="Building scalable, high-performance server-side applications using JavaScript."
             >
               Node.js
             </span>
             ,
             <span
-              class="html"
+              className="html"
               title="Developing structured, maintainable backend systems with TypeScript and modular architecture."
             >
               Nest.js
             </span>{" "}
             , and
             <span
-              class="html"
+              className="html"
               title="Creating fast, lightweight APIs and web servers with simplicity and flexibility."
             >
               Express.js
             </span>{" "}
             . I have strong experience working with databases such as
             <span
-              class="html"
+              className="html"
               title="Managing NoSQL data efficiently with flexible, document-oriented storage."
             >
               MongoDB
             </span>{" "}
             ,
             <span
-              class="html"
+              className="html"
               title="Designing and optimizing reliable relational databases for structured data management."
             >
               MySQL
-            </span>{" "} 
+            </span>{" "}
             , and
             <span
-              class="html"
+              className="html"
               title="Leveraging advanced SQL features for robust, secure, and scalable database solutions."
             >
               PostgreSQL
@@ -94,8 +94,12 @@ const About = () => {
             and ensuring smooth collaboration to deliver high-quality results.
           </p>
         </div>
-        <div class="w-full lg:w-1/2  sm:ps-4 flex items-center justify-center lg:justify-start">
-          <img src={ProfileTwo} className="h-70 w-70 sm:w-100 sm:h-100 rounded-xl sm:rounded-full image" alt="" />
+        <div className="w-full lg:w-1/2  sm:ps-4 flex items-center justify-center lg:justify-start">
+          <img
+            src={ProfileTwo}
+            className="h-70 w-70 sm:w-100 sm:h-100 rounded-xl shadow-lg sm:rounded-full image"
+            alt=""
+          />
         </div>
       </div>
     </>
