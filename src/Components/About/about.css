@@ -1,6 +1,5 @@
 .about-section{
-    margin-inline: 50px;
-    padding-inline: 10px;
+    padding-inline: 50px;
 }
 .full-name{
     color:#FFFFFF;
@@ -21,4 +20,7 @@
     color: #FFFFFF;
     vertical-align: middle;
     padding: 3px 10px;
+}
+.image{
+    object-fit: contain;
 }

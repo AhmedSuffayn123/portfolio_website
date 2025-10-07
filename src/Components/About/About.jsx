@@ -95,7 +95,7 @@ const About = () => {
           </p>
         </div>
         <div class="w-full lg:w-1/2 ps-4 flex items-center justify-center lg:justify-start">
-          <img src={ProfileTwo} className="w-100 h-100 rounded-full" alt="" />
+          <img src={ProfileTwo} className="w-100 h-100 rounded-full image" alt="" />
         </div>
       </div>
     </>
