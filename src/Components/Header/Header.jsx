@@ -8,12 +8,9 @@ import "./Header.css";
 import { useState } from "react";
 const Header = () => {
   const [isOpen,setIsOpen]  =  useState(false)
-  // const mystyle = {
-  //   fontSize: "24px",
-  // };
   return (
-    <div className="min-h-full header-bg   py-4 gap-20 flex justify-between items-center main-header">
-      <div class="name-section ms-40">
+    <div className="min-h-full header-bg    gap-20 flex justify-between items-center">
+      <div class="name-section">
         <h3 className="text-xl sm:text-3xl fw-bold font-[600]  p-0 m-0 uppercase"><span className="First-name">Suffyan</span><span className="last-name">Abbasi</span> </h3>
       </div>
       <div className="info-section hidden lg:flex">
@@ -26,6 +23,9 @@ const Header = () => {
           </li>
           <li>
             <Link>Skills</Link>
+          </li>
+          <li>
+            <Link>Hire Me</Link>
           </li>
         </ul>
       </div>

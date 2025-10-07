@@ -1,0 +1,24 @@
+.about-section{
+    margin-inline: 50px;
+    padding-inline: 10px;
+}
+.full-name{
+    color:#FFFFFF;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: left !important;
+}
+
+.about-me{
+    color:#9C9C9C;
+    font-size:22px;
+    font-weight: 500;
+    line-height: 1.7;
+    text-align: left;
+}
+.html{
+    background-color: #62BA1B;
+    color: #FFFFFF;
+    vertical-align: middle;
+    padding: 3px 10px;
+}

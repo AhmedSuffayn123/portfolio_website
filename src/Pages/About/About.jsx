@@ -1,11 +1,12 @@
 import Header from "../../Components/Header/Header";
-const About = () => {
+import About from "../../Components/About/About";
+const AboutPage = () => {
   return (
     <div>
       <Header />
-      <div className="text-black">This is the About Page.</div>
+       <About />
     </div>
   );
 };
 
-export default About;
+export default AboutPage;
