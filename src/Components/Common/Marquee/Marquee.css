@@ -62,5 +62,8 @@ color:#264C83;
     border-radius: 30px;
 }
 .icons-style{
-    font-size: 55px;
+    font-size: 95px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
