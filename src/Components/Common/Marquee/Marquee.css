@@ -1,69 +1,90 @@
-.html-logo{
+.html-logo {
     color: white;
-    background-color:#E54C21;
+    background-color: #E54C21;
     padding: 4px;
 }
-.css-logo{
+
+.css-logo {
     color: white;
-    background-color:#214CE5;
+    background-color: #214CE5;
     padding: 4px;
 }
-.java-script{
+
+.java-script {
     color: black;
     background-color: #F0DC4E;
     padding: 4px;
 }
-.react-logo{
+
+.react-logo {
     color: #61DBFB;
     background-color: black;
     padding: 4px;
     border-radius: 30px;
 }
-.next-log{
-  color: #FFFFFF;
-  background-color: black;
-  padding: 4px;
-  border-radius: 30px;
+
+.next-log {
+    color: #FFFFFF;
+    background-color: black;
+    padding: 4px;
+    border-radius: 30px;
 }
-.node-jS-log{
-  color: #539E43;
-  background-color:white;
-  padding: 4px;
+
+.node-jS-log {
+    color: #539E43;
+    background-color: white;
+    padding: 4px;
 }
-.express-logo{
-   color: white;
+
+.express-logo {
+    color: white;
     background-color: #000000;
-    padding:4px;
+    padding: 4px;
     border-radius: 30px;
 
 }
-.nest-logo{
-color:#E11E4D;
-    background-color:white;
-    padding:4px;
+
+.nest-logo {
+    color: #E11E4D;
+    background-color: white;
+    padding: 4px;
     border-radius: 30px;
 }
-.mongo-logo{
-color:#6BA342;
-    background-color:white;
-    padding:4px;
+
+.mongo-logo {
+    color: #6BA342;
+    background-color: white;
+    padding: 4px;
     border-radius: 30px;
 }
-.my-sql-logo{
-color:#4479A1;
-    background-color:white;
-    padding:4px;
+
+.my-sql-logo {
+    color: #4479A1;
+    background-color: white;
+    padding: 4px;
     border-radius: 30px;
 }
-.postgres-logo{
-color:#264C83;
-    background-color:white;
-    padding:4px;
+
+.postgres-logo {
+    color: #264C83;
+    background-color: white;
+    padding: 4px;
     border-radius: 30px;
 }
-.icons-style{
+
+.icons-style {
+    width: 150%;
+    height: 150%;
     font-size: 95px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+@media screen and (min-width:576px) {
+    .icons-style {
+        width: auto;
+        height: auto;
+        font-size: 45px;
+        object-fit: cover;
+        /* border-radius: 30px; */
+    }
 }

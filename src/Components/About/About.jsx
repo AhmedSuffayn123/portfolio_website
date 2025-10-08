@@ -94,14 +94,17 @@ const About = () => {
             and ensuring smooth collaboration to deliver high-quality results.
           </p>
         </div>
-        <div className="w-full lg:w-1/2  sm:ps-4 flex items-center justify-center lg:justify-start">
+        <div className="w-full lg:w-1/2  md:ps-4 flex items-center justify-center lg:justify-start">
           <img
             src={ProfileTwo}
             className="h-70 w-70 sm:w-100 sm:h-100 rounded-xl shadow-lg sm:rounded-full image"
             alt=""
           />
         </div>
+        <div class="d-flex mt-2"></div>
       </div>
+
+
     </>
   );
 };

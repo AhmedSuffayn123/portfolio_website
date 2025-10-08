@@ -1,0 +1,82 @@
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.img{
+    object-fit: contain;
+    background-position: center center;
+    height:250px !important;
+    width: 250px;
+    background: white !important;
+}
+
+.flip-card-inner {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-one:hover  .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.card-one:hover  .flip-card-inner-one {
+  transform: rotateY(180deg);
+}
+.card-two:hover  .flip-card-inner-two {
+  transform: rotateY(180deg);
+}
+.card-three:hover  .flip-card-inner-three {
+  transform: rotateY(180deg);
+}
+.card-four:hover  .flip-card-inner-four {
+  transform: rotateY(180deg);
+}
+.card-five:hover  .flip-card-inner-five {
+  transform: rotateY(180deg);
+}
+.card-six:hover  .flip-card-inner-six {
+  transform: rotateY(180deg);
+}
+.card-seven:hover  .flip-card-inner-seven {
+  transform: rotateY(180deg);
+}
+.card-eight:hover  .flip-card-inner-eight {
+  transform: rotateY(180deg);
+}
+.card-nine:hover  .flip-card-inner-nine {
+  transform: rotateY(180deg);
+}
+.card-ten:hover  .flip-card-inner-ten {
+  transform: rotateY(180deg);
+}
+.card-eleven:hover  .flip-card-inner-eleven {
+  transform: rotateY(180deg);
+}
+.card-twelve:hover  .flip-card-inner-twelve {
+  transform: rotateY(180deg);
+}
