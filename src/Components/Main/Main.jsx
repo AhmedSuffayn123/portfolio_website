@@ -18,7 +18,7 @@ const Main = () => {
       <div className="main w-full py-2 bg-danger  ">
         <h2 className="skills  text-6xl font-[600]">My Technology Stack</h2>
         <div className="  w-full flex gap-6 flex-wrap justify-center items-center  my-10 px-4">
-          <div class="flip-card card-one">
+          <div className="flip-card card-one">
             <div className="flip-card-inner flip-card-inner-one">
               <div className="flip-card-front">
                 <img src={HTML} className="img" alt="" />
@@ -32,7 +32,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip-card card-two">
+          <div className="flip-card card-two">
             <div className="flip-card-inner flip-card-inner-two">
               <div className="flip-card-front">
                 <img src={CSS} className="img" alt="" />
@@ -46,7 +46,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flio-card card-three">
+          <div className="flio-card card-three">
             <div className="flip-card-inner flip-card-inner-three">
               <div className="flip-card-front">
                 <img src={JavaScript} className="img" alt="" />
@@ -60,7 +60,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip-card card-four">
+          <div className="flip-card card-four">
             <div className="flip-card-inner flip-card-inner-four">
               <div className="flip-card-front">
                 <img src={reactIMG} className="img" alt="" />
@@ -74,7 +74,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip-card card-five">
+          <div className="flip-card card-five">
             <div className="flip-card-inner flip-card-inner-five">
               <div className="flip-card-front">
                 <img src={next} className="img" alt="" />
@@ -88,7 +88,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip card-six">
+          <div className="flip card-six">
             <div className="flip-card-inner flip-card-inner-six">
               <div className="flip-card-front">
                 <img src={Express} className="img" alt="" />
@@ -102,7 +102,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip card-seven">
+          <div className="flip card-seven">
             <div className="flip-card-inner flip-card-inner-seven">
               <div className="flip-card-front">
                 <img src={Nest} className="img" alt="" />
@@ -116,7 +116,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip card-eight">
+          <div className="flip card-eight">
             <div className="flip-card-inner flip-card-inner-eight">
               <div className="flip-card-front">
                 <img src={MonogDB} className="img" alt="" />
@@ -130,7 +130,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip card-nine">
+          <div className="flip card-nine">
             <div className="flip-card-inner flip-card-inner-nine">
               <div className="flip-card-front">
                 <img src={MySQL} className="img" alt="" />
@@ -144,7 +144,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip card-ten">
+          <div className="flip card-ten">
             <div className="flip-card-inner flip-card-inner-ten ">
               <div className="flip-card-front">
                 <img src={PostGres} className="img" alt="" />
@@ -158,7 +158,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip card-eleven">
+          <div className="flip card-eleven">
             <div className="flip-card-inner flip-card-inner-eleven">
               <div className="flip-card-front">
                 <img src={GitHub} className="img" alt="" />
@@ -170,7 +170,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div class="flip card-twelve">
+          <div className="flip card-twelve">
             <div className="flip-card-inner flip-card-inner-twelve">
               <div className="flip-card-front">
                 <img src={GitLab} className="img" alt="" />

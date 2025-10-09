@@ -17,7 +17,7 @@ const Marquee = () => {
         direction="left"
         className="mt-2 text-2xl marquee text-shadow-violet-200"
       >
-        <div class="marquee-icons flex gap-1 md:gap-6">
+        <div className="marquee-icons flex gap-1 md:gap-6">
           <IoLogoHtml5 className="html-logo icons-style " />
           <ImCss3 className=" icons-style css-logo " />
           <IoLogoJavascript className="java-script icons-style" />

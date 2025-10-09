@@ -33,10 +33,6 @@
         cursor: default;
     }
 
-    .main-list>li {
-        padding: 10px;
-    }
-
     .main-list>li:hover {
         border-bottom: 2px solid #D4AF37;
     }
@@ -97,18 +93,12 @@
 
     .mobile-menu>ul>li:hover {
         background-color: aqua;
-        border-radius: 5px;
     }
 
-    .mobile-menu>ul>li:hover {
-        margin-top: 10px;
-        width: 90%
-    }
 
     .social>ul>li {
         font-size: 17px;
         font-weight: 600;
-        padding: 10px;
         color: #9C9C9C;
     }
 
@@ -116,6 +106,6 @@
         border-bottom: 2px solid #D4AF37;
     }
 
-    .social>ul>li:hover>a {
+    .social>ul>li:hover >a {
         color: #E5C97E;
     }

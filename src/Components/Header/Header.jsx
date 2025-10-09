@@ -16,7 +16,7 @@ const Header = () => {
       <div className="info-section hidden lg:flex">
         <ul className="main-list flex items-center justify-center gap-4">
           <li>
-            <Link to="">About</Link>
+            <Link to="/">About</Link>
           </li>
           <li>
             <Link>Education</Link>
@@ -25,7 +25,7 @@ const Header = () => {
             <Link>Skills</Link>
           </li>
           <li>
-            <Link>Hire Me</Link>
+            <Link to= "/Hire" >Hire Me</Link>
           </li>
         </ul>
       </div>
@@ -78,14 +78,14 @@ const Header = () => {
         </ul>
       </div>
         <div className="social hidden xl:flex">
-        <ul className="flex gap-6">
-          <li>
+        <ul className="flex items-center gap-4">
+          <li >
             <Link className="flex items-center lg:gap-2 xl:gap-3">
             <IoLogoLinkedin />
             Linked In
            </Link>
           </li>
-          <li>
+          <li >
             <Link className="flex items-center lg:gap-2 xl:gap-3">
               <FaGithub />
               Github

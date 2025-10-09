@@ -101,7 +101,7 @@ const About = () => {
             alt=""
           />
         </div>
-        <div class="d-flex mt-2"></div>
+        <div className="d-flex mt-2"></div>
       </div>
 
 
