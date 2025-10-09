@@ -3,12 +3,13 @@
   perspective: 1000px;
 }
 
-.img{
-    object-fit: contain;
-    background-position: center center;
-    height:250px !important;
-    width: 250px;
-    background: white !important;
+.img {
+  object-fit: contain;
+  background-position: center center;
+  height: 250px !important;
+  width: 250px;
+  background: white !important;
+  border-radius: 12px;
 }
 
 .flip-card-inner {
@@ -18,17 +19,19 @@
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.card-one:hover  .flip-card-inner {
+.card-one:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
+  border-radius: 12px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -39,44 +42,156 @@
 }
 
 .flip-card-back {
-  background-color: #2980b9;
-  color: white;
   transform: rotateY(180deg);
 }
 
-.card-one:hover  .flip-card-inner-one {
+.back-one {
+  background-color: #FD870C;
+}
+
+.html-text {
+  text-shadow:
+    1px 1px 0 #C16000,
+    2px 2px 0 #8A4500,
+    3px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.back-two {
+  background-color: #1572B6;
+}
+
+.css-text {
+  text-shadow:
+    1px 1px 0 #0F4C81,
+    2px 2px 0 #0D3A63,
+    3px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.back-three {
+  background-color: #F0DB4F;
+}
+
+.javascript-text {
+  text-shadow:
+    1px 1px 0 #B89F2E,
+    2px 2px 0 #7A6A1C,
+    3px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.back-four {
+  background-color: #60D7F7;
+}
+.react-text{
+  text-shadow:
+  1px 1px 0 #2A94B5,        
+  2px 2px 0 #1C6A85,      
+  3px 3px 5px rgba(0,0,0,0.4); 
+}
+
+.back-five {
+  background-color: #ffffff;
+}
+.next-text{
+  text-shadow:
+  1px 1px 0 #B0B0B0,        
+  2px 2px 0 #808080,         
+  3px 3px 5px rgba(0,0,0,0.4); 
+}
+
+.back-six {
+  background-color: #ffffff;
+}
+
+.back-seven {
+  background-color: #E11E4D;
+}
+.nest-text{
+  text-shadow:
+  1px 1px 0 #B31238,      
+  2px 2px 0 #7A0E26,       
+  3px 3px 5px rgba(0,0,0,0.4);
+}
+.back-eight {
+  background-color: #429A34;
+}
+.mongo-text{
+  
+  text-shadow:
+  1px 1px 0 #2E6B25,      
+  2px 2px 0 #1C4517,    
+  3px 3px 5px rgba(0,0,0,0.4); 
+}
+
+.back-nine {
+  background-color: #4479A1;
+}
+
+.my-text{
+  text-shadow:
+  1px 1px 0 #325B7A,     
+  2px 2px 0 #1F394C,       
+  3px 3px 5px rgba(0,0,0,0.4); 
+}
+
+.back-ten {
+  background-color: #2F6792;
+}
+
+.back-eleven {
+  background-color: #ffff;
+}
+
+.back-twelve {
+  background-color: #DB4128;
+}
+.lab-text{
+  text-shadow: 1px 1px 0 #A02110, 2px 2px 5px rgba(0, 0, 0, 0.35);
+}
+
+.card-one:hover .flip-card-inner-one {
   transform: rotateY(180deg);
 }
-.card-two:hover  .flip-card-inner-two {
+
+.card-two:hover .flip-card-inner-two {
   transform: rotateY(180deg);
 }
-.card-three:hover  .flip-card-inner-three {
+
+.card-three:hover .flip-card-inner-three {
   transform: rotateY(180deg);
 }
-.card-four:hover  .flip-card-inner-four {
+
+.card-four:hover .flip-card-inner-four {
   transform: rotateY(180deg);
 }
-.card-five:hover  .flip-card-inner-five {
+
+.card-five:hover .flip-card-inner-five {
   transform: rotateY(180deg);
 }
-.card-six:hover  .flip-card-inner-six {
+
+.card-six:hover .flip-card-inner-six {
   transform: rotateY(180deg);
 }
-.card-seven:hover  .flip-card-inner-seven {
+
+.card-seven:hover .flip-card-inner-seven {
   transform: rotateY(180deg);
 }
-.card-eight:hover  .flip-card-inner-eight {
+
+.card-eight:hover .flip-card-inner-eight {
   transform: rotateY(180deg);
 }
-.card-nine:hover  .flip-card-inner-nine {
+
+.card-nine:hover .flip-card-inner-nine {
   transform: rotateY(180deg);
 }
-.card-ten:hover  .flip-card-inner-ten {
+
+.card-ten:hover .flip-card-inner-ten {
   transform: rotateY(180deg);
 }
-.card-eleven:hover  .flip-card-inner-eleven {
+
+.card-eleven:hover .flip-card-inner-eleven {
   transform: rotateY(180deg);
 }
-.card-twelve:hover  .flip-card-inner-twelve {
+
+.card-twelve:hover .flip-card-inner-twelve {
   transform: rotateY(180deg);
 }
